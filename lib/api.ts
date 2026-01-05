@@ -1,5 +1,4 @@
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE || "http://172.25.153.38:8080/api/v1"
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE!
 
 // =========================
 // Token helpers
